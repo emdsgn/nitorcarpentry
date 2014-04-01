@@ -1,0 +1,241 @@
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+.flex-img {
+	display: block;
+	width: 100%
+}
+
+.chalk-bg
+  {
+  display: block;
+  width: 100%;
+  background:url('../img/chalkboard.jpg') repeat;
+  }
+
+  .flex-logo
+  {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  padding: 3em;
+  color: #FFF;
+  }
+
+.transbox
+  {
+  width: 100%;
+  display: block;
+  background-color:#2B2B2B;
+  opacity:0.4;
+  filter:alpha(opacity=40); /* For IE8 and earlier */
+  }
+
+  .info {
+    background-color: #2B2B2B;
+    padding: 3em;
+}
+
+.info p {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #FFF;
+    line-height: 1.5em;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.bgContact {
+    background-color: #2B2B2B;
+    padding: 2em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1em;
+    color: #181f2e;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.ct p {
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #FFF;
+}
+
+.contact-img {
+    width: 55%;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.ci {
+    padding: 0.8em 0 0.8em 0;
+}
+
+.ct {
+    padding: 0.1em 0 0.1em 0;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #181f2e;
+}
+
+.footer {
+	font-size: 0.85em;
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 3em;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #000;
+	font-family: sans-serif;
+	letter-spacing: 0.1em;
+}
+
+
+@media only screen and (min-width: 21em) {
+.contact-img {
+    width: 56%;
+}
+
+.ci {
+    padding: 0.8em 0 0.8em 0;
+}
+
+.ct {
+    padding: 0.2em 0 0.2em 0;
+}
+}
+
+@media only screen and (min-width: 27em) {
+    .contact-img {
+        width: 43%;
+    }
+}
+
+@media only screen and (min-width: 33em) {
+    .info {
+    padding: 4em;
+}
+.bgContact {
+    padding: 4em;
+}
+
+.contact-img {
+    width: 39%;
+}
+}
+
+@media only screen and (min-width: 40em) {
+.flex-logo {
+    width: 65%;
+}
+    .info {
+    padding: 5em;
+}
+.bgContact {
+    padding: 5em;
+}
+
+.contact-img {
+    width: 40%;
+}
+}
+
+
+@media only screen and (min-width: 46em) {
+.logo {
+    padding: 4em;
+}
+.info p {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+.ct p {
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.contact-img {
+    width: 40%;
+}
+}
+
+@media only screen and (min-width: 52em) {
+    .flex-logo {
+        width: 60%;
+    }
+
+    .contact-img {
+        width: 63%;
+    }
+
+    .ct p {
+        font-size: 1.3em;
+    }
+}
+
+@media only screen and (min-width: 58em) {
+    .logo {
+        padding: 8em;
+    }
+    .flex-logo {
+        width: 50%;
+    }
+
+    .info {
+        padding: 7em;
+    }
+
+    .bgContact {
+        padding: 7em;
+    }
+}
+
+@media only screen and (min-width: 83em) {
+    .flex-logo {
+        width: 40%;
+    }
+
+    .ct p {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    .info {
+        padding: 12em;
+    }
+
+    .bgContact {
+        padding: 12em;
+        text-align: center;
+    }
+
+    .contact-item img {
+        width: 60%;
+    }
+
+    .ci {
+        padding: 2.75em 1em 2.75em 1em;
+    }
+    .ct p {
+        font-size: 2.5em;
+    }
+}
+
+@media only screen and (min-width: 96em) {
+    .flex-logo {
+        width: 30%;
+    }
+}
