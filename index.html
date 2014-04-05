@@ -8,34 +8,211 @@
 <meta name="viewport" content="width=device-width" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link href="css/common.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/grid.css">
+<link rel="stylesheet" href="css/grid.css">
+<link href="css/carousel.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/component.css" />
+  
+  <script src="js/modernizr.custom.js"></script>
 </head>
 
 <body>
+
+<!-- HEADER -->
+<header>
+<!-- NAVIGATION FOR MOBILE -->
+<div class="container demo-2">  
+  <div class="main clearfix">
+    <div class="column">
+      <div id="dl-menu" class="dl-menuwrapper">
+        <button class="dl-trigger">Open Menu</button>
+          <ul class="dl-menu">
+            <li><a href="">Français</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a>
+                <ul class="dl-submenu">
+                  <li><a href="#">Boutique Carpentry</a></li>
+                  <li><a href="#">Home Building</a></li>
+                  <li><a href="#">Additions & Renovations</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Brochures</a></li>
+            <li><a href="#">Photo Galleries</a></li>
+            <li><a href="#">Get An Estimate</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+      </div><!-- /dl-menuwrapper -->
+    </div>
+  </div>
+</div><!-- /container -->
+
 <div class="grid">
-<div class="unit unit-s-1 unit-m-1 unit-l-1">
-  <img src="img/header.jpg" alt="Nitor Carpentry website renovation" class="flex-img">
-  <img src="img/header-1.jpg" alt="Nitor Carpentry website rennovation" class="flex-mob">
-</div>
-</div>
-
-<div class="bgContact">
-        <div class="contact-item grid">
-        <a href="mailto:info@nitorcarpentry.com">
-          <div class="unit unit-s-1-4 ci">
-            <img src="img/email.png" alt="Send us an email." class="contact-img">
-          </div>
-          <div class="unit unit-s-2-2 ct">
-          <p>info@nitorcarpentry.com</p>
-          </div></a>
-        </div>
-</div>
-
-  <!-- Footer -->
-  <div class="footer">
-    <div id="copyright"> Copyright &copy; 2014 Nitor Carpentry.</div>
+  <div class="box"></div>
+  <div class="unit unit-s-1 unit-m-1 unit-l-1 logo">
+    <img src="img/nitor-logo.png" alt="Nitor Carpentry" class="flex-logo">
   </div>
 
-<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <div class="top-right-links">
+    <a href="/brochure.html">Brochure</a> <p>/</p> <a href="/francais">Francais</a>
+    </div>  
+  </div>
+</div>
+
+<div class="grid">
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+<!-- NAVIGATION FOR DESKTOP -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/photo.html">Photo</a></li>
+      <li><a href="/estimate.html">Get An Estimate</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+    </ul>
+    </nav>
+  </div>
+</div>
+</header>
+
+<!-- BANNER/CAROUSEL (IMAGE SLIDE) -->
+<div class="grid">
+<div class="unit unit-s-1 unit-m-1 unit-l-1">
+  <img src="http://placehold.it/300x300" class="flex-img">
+</div>
+</div>
+<section class="screenshots" id="screenshots">
+  <div class="unit-spacer">
+    <div class="carousel">
+      <div class="carousel-items">
+        <img data-state="current" src="img/img-1.jpg" alt="" class="flex-img">
+        <img src="img/img-2.jpg" alt="" class="flex-img">
+        <img src="img/img-3.jpg" alt="" class="flex-img">
+        <img src="img/img-4.jpg" alt="" class="flex-img">
+      </div>
+      <div class="carousel-buttons">
+        <button class="prev">〈</button>
+        <button class="next">〉</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOUTIQUE CARPENTRY -->
+<div class="grid">
+  <div class-"unit unit-s-1 unit-m-1 unit-l-1">
+    <h2>Boutique Carpentry</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="unit unit-s-1 unit-m-1 unit-l-1 learn-more">
+      <a href="/boutique.html">Learn More</a>
+    </div>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+  <div class="triangle-right"></div>
+  <img src="/boutique.jpg" alt="Boutique Carpentry" class="flex-img">
+  </div>
+</div>
+
+<!-- Home Building -->
+<div class="grid">
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <div class="triangle-left"></div>
+    <img src="/home-build.jpg" alt="Boutique Carpentry" class="flex-img">
+  </div>
+
+  <div class-"unit unit-s-1 unit-m-1 unit-l-1">
+    <h2>Home Building</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="unit unit-s-1 unit-m-1 unit-l-1 learn-more">
+      <a href="/home-build.html">Learn More</a>
+    </div>
+  </div>
+</div>
+
+<!-- ADDITIONES AND RENOVATIONS -->
+<div class="grid">
+  <div class-"unit unit-s-1 unit-m-1 unit-l-1">
+    <h2>Additions and Renovations</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <div class="unit unit-s-1 unit-m-1 unit-l-1 learn-more">
+      <a href="/add-reno.html">Learn More</a>
+    </div>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+  <div class="triangle-right"></div>
+  <img src="/add-reno.jpg" alt="Boutique Carpentry" class="flex-img">
+  </div>
+</div>
+
+<!-- FOOTER (CONTACT) -->
+<footer>
+<div class="grid">
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <h3>From Design To Final Touch.</h3>
+    <div class="learn-more">
+      <a href="/estimate.html">Get An Estimate</a>
+    </div>
+  </div>
+</div>
+
+<div class="grid">
+  <div class="unit unit-s-1 unit-m-1 unit-l-1 contact-info">
+    <h3>Get In Touch</h3>
+    <p>T: 613-738-8064</p>
+    <a href="mailto:info@nitorcarpentry.com" class="contact-link">info@nitorcarpentry.com</a>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1 unit-l-1 contact-info">
+    <h3>Site Map</h3>
+    <nav class="footer-nav">
+    <ul>
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/photo.html">Photo Gallery</a></li>
+      <li><a href="/brochures.html">Brochures</a></li>
+      <li><a href="/boutique.html">Boutique Carpentry</a></li>
+      <li><a href="/home-build.html">Home Building</a></li>
+      <li><a href="/add-reno.html">Additions & Renovations</a></li>
+    </ul>
+    </nav>
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1 unit-l-1 copyright">
+    <p>&copy; Copyright 2014. All rights reserved</p>
+  </div>
+</footer>
+
+  <script src="js/slide.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.dlmenu.js"></script>
+    <script>
+      $(function() {
+        $( '#dl-menu' ).dlmenu({
+          animationClasses : { classin : 'dl-animate-in-2', classout : 'dl-animate-out-2' }
+        });
+      });
+    </script>
+
 </body>
 </html>
