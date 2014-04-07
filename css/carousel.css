@@ -1,9 +1,27 @@
+.screenshots {
+	display: none;
+}
+
 .carousel {
 	overflow: hidden;
 	padding-bottom: 110.96%; /* Image aspect ratio: height / width * 100 */
 	position: relative;
 	box-shadow: 0px 0px 2px #333;
 	display: none;
+}
+
+
+@media only screen and (min-width: 38em) {
+	.screenshots {
+	display: block;
+	margin-top: 6%;
+}
+
+.carousel {
+	overflow: hidden;
+	padding-bottom: 110.96%; /* Image aspect ratio: height / width * 100 */
+	position: relative;
+	display: block;
 }
 
 .carousel-items img {
@@ -61,4 +79,5 @@
 .prev:hover,
 .next:hover {
 	color: #50972B;
+}
 }
