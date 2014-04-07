@@ -25,11 +25,15 @@ html {
     margin: 0 auto;
 }
 
-.box-1 {
+.box {
     min-height: 45px;
 }
 
 .top-right-links {
+    display: none;
+}
+
+.dnav {
     display: none;
 }
 
@@ -52,9 +56,27 @@ html {
     width: 100%;
 }
 
-.box {
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
     background-color: #000;
-    padding: 1em;
+    padding: 2em;
+    width: 100%;
+}
+
+.box-5 {
+    background-color: #FFF;
+}
+
+.box-5 h2 {
+    color: #000;
+}
+
+.box-5 p {
+    color: #000;
 }
 
 h2 {
@@ -259,6 +281,7 @@ h3 {
 .copyright {
     padding: 0 1em 0.5em 1em;
     border-top: solid 1px #000;
+    width: 100%;
 }
 
 .copyright p {
@@ -268,33 +291,34 @@ h3 {
 }
 
 @media only screen and (min-width: 27em) {
-    .box {
-        padding: 2em;
+    .site-map {
+        margin: 0 auto;
+        padding-top: 1em;
+        text-align: center;
     }
 }
 
 @media only screen and (min-width: 33em) {
     .contact-head {
-        margin: 0;
-    }
-
-    .site-map {
-        margin: 0;
-        padding-top: 1em;
+        margin: 0 auto;
     }
 }
 
 @media only screen and (min-width: 38em) {
+    .dnav {
+        display: block;
+    }
+
     .container {
         display: none;
     }
 
-    .box-1 {
+    .box {
         display: none;
     }
 
-    .flex-img-2 {
-        display: none;
+    .site-map {
+        text-align: left;
     }
 
     .logo {
@@ -340,9 +364,10 @@ h3 {
     .main-nav {
         display: block;
         position: fixed;
-        background-color: #242120;
+        background: rgba(0,0,0,0.8);
         width: 100%;
         text-align: center;
+        z-index: 200;
     }
 
     .main-nav ul {
@@ -371,13 +396,37 @@ h3 {
         color: #000;
     }
 
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-6 {
+        background-color: #242120;
+        padding: 3em;
+    }
+
+    .box-5 {
+        padding: 3em;
+    }
+}
+
+@media only screen and (min-width: 43em) {
+    .flex-img-2 {
+        display: none;
+    }
+
     .flex-img-1 {
         display: block;
     }
 
-    .box {
-        background-color: #242120;
+    .box-1,
+    .box-2,
+    .box-3 {
         padding: 1em;
+    }
+
+    .bg {
+        background-color: #242120;
     }
 
         /*Right pointing*/
@@ -426,5 +475,39 @@ h3 {
         border-bottom: 500px solid transparent;
         border-right: 500px solid #242120;
     }
+}
 
+@media only screen and (min-width: 50em) {
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 2em;
+    }
+
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 5em;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .flex-logo {
+        width: 40%;
+    }
+
+    .top-right-links {
+        padding: 14% 0 14% 0;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 4em;
+    }
+
+    .flex-img-1,
+    .flex-img {
+        width: 100%;
+    }
 }
