@@ -194,8 +194,11 @@ h3 {
 }
 
 .testimonials {
-    padding: 2em;
     color: #FFF;
+}
+
+.testi-quote {
+    margin: 0 auto;
 }
 
 .testi-name {
@@ -540,7 +543,7 @@ h3 {
     .box-1,
     .box-2,
     .box-3 {
-        padding: 4em;
+        padding: 3em;
     }
 
     .flex-img-1,
