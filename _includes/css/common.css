@@ -232,9 +232,13 @@ h3 {
     color: #000;
 }
 
+.paragon {
+    padding: 1em;
+}
+
 .contact-head {
     margin: 0 auto;
-    padding: 0.5em 1em 1em 1em;
+    padding: 1em 0 0 0;
 }
 
 .contact-head-1 {
@@ -304,6 +308,40 @@ h3 {
 
 .footer-nav a:hover,
 .footer-nav a:focus {
+    background-color: #000;
+    color: #FFF;
+}
+
+.paragon-link {
+    position: absolute;
+    z-index: 100;
+    margin-top: 7.1%;
+    margin-left: 15%;
+}
+
+.paragon-link li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0.5em 0.5em 0.5em 0;
+}
+
+.paragon-link a {
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+    border-bottom: dotted 1px #000;
+    background-color: #000;
+}
+
+.paragon-link a:link,
+.paragon-link a:visited {
+    text-decoration: none;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.paragon-link a:hover,
+.paragon-link a:focus {
     background-color: #000;
     color: #FFF;
 }
