@@ -1,90 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<title>Nitor Carpentry</title>
-
-<meta name="viewport" content="width=device-width" />
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-<link href="css/common.css" rel="stylesheet">
-<link rel="stylesheet" href="css/grid.css">
-<link href="css/carousel.css" rel="stylesheet">
-<link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="css/default.css" />
-<link rel="stylesheet" type="text/css" href="css/component.css" />
-
-  <script src="js/modernizr.custom.js"></script>
-</head>
-
-<body>
-
-<!-- HEADER -->
-<header>
-<!-- NAVIGATION FOR MOBILE -->
-<div class="container demo-2">
-  <div class="main clearfix">
-    <div class="column">
-      <div id="dl-menu" class="dl-menuwrapper">
-        <button class="dl-trigger">Open Menu</button>
-          <ul class="dl-menu">
-            <li><a href="">Français</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Services</a>
-                <ul class="dl-submenu">
-                  <li><a href="#">Boutique Carpentry</a></li>
-                  <li><a href="#">Home Building</a></li>
-                  <li><a href="#">Additions & Renovations</a></li>
-                </ul>
-            </li>
-            <li><a href="#">Brochures</a></li>
-            <li><a href="#">Photo Galleries</a></li>
-            <li><a href="#">Get An Estimate</a></li>
-            <li><a href="#">Contact Us</a></li>
-          </ul>
-      </div><!-- /dl-menuwrapper -->
-    </div>
-  </div>
-</div><!-- /container -->
-
-<div class="grid logo">
-  <div class="box"></div>
-  <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3">
-    <img src="img/nitor-logo.jpg" alt="Nitor Carpentry" class="flex-logo">
-  </div>
-
-  <div class="unit unit-m-1-3 unit-l-1-3">
-    <div class="top-right-links">
-    <a href="/brochure.html">Brochure</a> <p>/</p> <a href="/francais">Francais</a>
-    </div>
-  </div>
-</div>
-
-<div class="grid dnav">
-  <div class="unit unit-s-1 unit-m-1 unit-l-1">
-<!-- NAVIGATION FOR DESKTOP -->
-  <nav class="main-nav">
-    <ul>
-      <li><a href="/about.html">About Us</a></li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/photo.html">Photo</a></li>
-      <li><a href="/estimate.html">Get An Estimate</a></li>
-      <li><a href="/contact.html">Contact Us</a></li>
-    </ul>
-    </nav>
-  </div>
-</div>
-</header>
+---
+layout: default
+---
 
 <!-- BANNER/CAROUSEL (IMAGE SLIDE) -->
 <section class="screenshots" id="screenshots">
   <div class="unit-spacer">
     <div class="carousel">
       <div class="carousel-items">
-        <img data-state="current" src="http://placehold.it/600x300" alt="" class="flex-img">
-        <img src="img/nitor-logo.jpg" alt="" class="flex-img">
-        <img src="http://placehold.it/600x300" alt="" class="flex-img">
-        <img src="http://placehold.it/600x300" alt="" class="flex-img">
+       <img data-state="current" src="img/img-1.jpg" alt="" class="flex-img">
+        <img src="img/img-2.jpg" alt="" class="flex-img">
+        <img src="img/img-3.jpg" alt="" class="flex-img">
+        <img src="img/img-4.jpg" alt="" class="flex-img">
       </div>
       <div class="carousel-buttons">
         <button class="prev">〈</button>
@@ -107,7 +33,7 @@
     <h2>Home Building</h2>
     <p class="body">Nitor is one of the region's very few expert custom home builders offering a full slate of design and construction services. We can start from scratch and work with you on design and materials selection. </p>
     <p class="body">We provide the following services:</p>
-    <ul>
+    <ul class="ul-body">
       <li>Design</li>
       <li>Project Management</li>
       <li>General Contracting</li>
@@ -124,73 +50,44 @@
 </div>
 </div>
 
-<div class="grid">
+<div class="grid" id="mainwrapper">
   <div class="unit unit-s-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-  <img src="http://placehold.it/400x400" class="flex-img">
+  <div id="project-img" class="p-img">
+        <img id="image-3" src="img/home-build-1.jpg" class="flex-img">
+        <span class="caption fade-caption">
+        <h3 class="p-subhead">General Contracting</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </span>
+  </div>
   </div>
 
   <div class="unit unit-s-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-  <img src="http://placehold.it/400x400" class="flex-img">
+  <div id="project-img" class="p-img">
+        <img id="image-3" src="img/home-build-2.jpg" class="flex-img">
+        <span class="caption fade-caption">
+        <h3 class="p-subhead">Design</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </span>
+  </div>
   </div>
 
   <div class="unit unit-s-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-  <img src="http://placehold.it/400x400" class="flex-img">
+  <div id="project-img" class="p-img">
+        <img id="image-3" src="img/home-build-3.jpg" class="flex-img">
+        <span class="caption fade-caption">
+        <h3 class="p-subhead">Closet Renovation</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </span>
+  </div>
   </div>
 
   <div class="unit unit-s-1 unit-s-1-2 unit-m-1-2 unit-l-1-2">
-  <img src="http://placehold.it/400x400" class="flex-img">
+  <div id="project-img" class="p-img">
+        <img id="image-3" src="img/home-build-4.jpg" class="flex-img">
+        <span class="caption fade-caption">
+        <h3 class="p-subhead">Project Management</h3>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+        </span>
+  </div>
   </div>
 </div>
-
-<!-- FOOTER (CONTACT) -->
-<footer>
-<div class="grid">
-  <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 contact-head-1">
-    <h3>From Design To Final Touch.</h3>
-    <div class="learn-more-1">
-      <a href="/estimate.html">Get An Estimate</a>
-    </div>
-  </div>
-
-  <div class="unit unit-s-1 unit-s-1-3 unit-m-1-3 unit-l-1-3 contact-head">
-    <h3>Get In Touch</h3>
-    <p>T: 613-738-8064</p>
-    <a href="mailto:info@nitorcarpentry.com" class="contact-link">info@nitorcarpentry.com</a>
-  </div>
-
-  <div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 site-map">
-    <h3>Site Map</h3>
-    <nav class="footer-nav">
-    <ul>
-      <li><a href="/about.html">About Us</a></li>
-      <li><a href="/services.html">Services</a></li>
-      <li><a href="/photo.html">Photo Gallery</a></li>
-      <li><a href="/brochures.html">Brochures</a></li>
-      <li><a href="/boutique.html">Boutique Carpentry</a></li>
-      <li><a href="/home-build.html">Home Building</a></li>
-      <li><a href="/add-reno.html">Additions & Renovations</a></li>
-    </ul>
-    </nav>
-  </div>
-</div>
-
-<div class="grid">
-  <div class="unit unit-s-1 unit-m-1 unit-l-1 copyright">
-    <p>&copy; Copyright 2014. All rights reserved</p>
-  </div>
-</div>
-</footer>
-
-  <script src="js/slide.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src="js/jquery.dlmenu.js"></script>
-    <script>
-      $(function() {
-        $( '#dl-menu' ).dlmenu({
-          animationClasses : { classin : 'dl-animate-in-2', classout : 'dl-animate-out-2' }
-        });
-      });
-    </script>
-
-</body>
-</html>

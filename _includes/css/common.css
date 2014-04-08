@@ -96,6 +96,23 @@ h2 {
     letter-spacing: 0.01em;
 }
 
+.body-000 {
+    font-size: 0.9em;
+    margin: 0 auto;
+    color: #000;
+    letter-spacing: 0.01em;
+}
+
+.ul-body {
+    margin: 0 auto;
+    color: #FFF;
+    padding: 1em;
+}
+
+.ul-body li {
+    color: #FFF;
+}
+
 .learn-more {
     padding: 1.5em 0 1em 0;
 }
@@ -166,16 +183,6 @@ h2 {
     border-right: 500px solid #4679BD;
 }
 
-.contact-head {
-    margin: 0 auto;
-    padding: 1em;
-}
-
-.contact-head-1 {
-    margin: 0 auto;
-    padding: 1em;
-}
-
 h3 {
     font-family: 'Arvo', sans-serif;
     font-weight: lighter;
@@ -184,6 +191,16 @@ h3 {
     text-transform: uppercase;
     margin: 0 auto;
     color: #000;
+}
+
+.testimonials {
+    padding: 2em;
+    color: #FFF;
+}
+
+.testi-name {
+    float: right;
+    padding: 1em;
 }
 
 .learn-more-1 {
@@ -210,6 +227,16 @@ h3 {
 .learn-more-1 a:focus {
     background-color: #FFF;
     color: #000;
+}
+
+.contact-head {
+    margin: 0 auto;
+    padding: 0.5em 1em 1em 1em;
+}
+
+.contact-head-1 {
+    margin: 0 auto;
+    padding: 1em;
 }
 
 .contact-head p {
@@ -239,7 +266,7 @@ h3 {
 
 .site-map {
     margin: 0 auto;
-    padding: 0 1em 1em 1em;
+    padding: 0.5em 1em 1em 1em;
 }
 
 .footer-nav {
@@ -294,7 +321,6 @@ h3 {
     .site-map {
         margin: 0 auto;
         padding-top: 1em;
-        text-align: center;
     }
 }
 
@@ -367,7 +393,7 @@ h3 {
         background: rgba(0,0,0,0.8);
         width: 100%;
         text-align: center;
-        z-index: 200;
+        z-index: 190;
     }
 
     .main-nav ul {
@@ -395,6 +421,17 @@ h3 {
         background-color: #FFF;
         color: #000;
     }
+
+    sticknav {
+    height: 30px;
+    width: 100%;
+    margin-right: 0px;
+    left: 0px;
+    position: relative;
+    z-index: 9999;
+    }
+
+    .fixed { position:fixed;}
 
     .box-1,
     .box-2,
