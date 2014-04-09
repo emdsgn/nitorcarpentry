@@ -15,6 +15,13 @@ html {
   padding: 0;
   font: normal 100%/1.4 'Helvetica',sans-serif;
 }
+
+body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
 .logo {
     background-color: #242120;
 }
@@ -23,6 +30,10 @@ html {
     display: block;
     width: 100%;
     margin: 0 auto;
+}
+
+.s-logo {
+    width: 10%;
 }
 
 .box {
@@ -424,8 +435,8 @@ h3 {
 
     .top-right-links a:hover,
     .top-right-links a:focus {
-        background-color: #000;
-        color: #FFF;
+        color: #000;
+        border-bottom: dotted 1px #000;
     }
 
     .main-nav {
@@ -434,33 +445,74 @@ h3 {
         background: rgba(0,0,0,0.8);
         width: 100%;
         text-align: center;
-        z-index: 190;
+        z-index: 160;
+    }
+
+    .main-nav ul ul {
+        display: none;
+    }
+
+    .main-nav ul li:hover > ul {
+        display: block;
     }
 
     .main-nav ul {
-        margin: 0 auto;
-        padding: 0;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    margin: 0 auto;
+    padding: 0;
     }
 
-    .main-nav li {
-        list-style-type: none;
-        display: inline-block;
-        padding: 0.5em;
+    .main-nav ul:after {
+        content: ""; clear: both; display: block;
     }
 
-    .main-nav a:link,
-    .main-nav a:visited {
-    text-decoration: none;
-    color: #FFF;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    padding: 1em;
+    .main-nav ul li {
+        float: left;
     }
 
-    .main-nav a:hover,
-    .main-nav a:focus {
-        background-color: #FFF;
+    .main-nav ul li:hover {
+        background: #FFF;
+    }
+    .main-nav ul li:hover a {
+        color: #FFF;
+    }
+
+    .main-nav ul li a {
+        display: block; padding: 1em;
+        color: #FFF; text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .main-nav ul li a:hover {
         color: #000;
+    }
+
+    .main-nav ul ul {
+    background-color: rgba(0,0,0,0.8); padding: 0;
+    position: absolute;
+    z-index: 170;
+    }
+
+    .main-nav ul ul li {
+        float: none;
+        border-top: 1px solid #FFF;
+        border-bottom: 1px solid #FFF;
+        position: relative;
+    }
+
+    .main-nav ul ul li a {
+        padding: 15px 40px;
+    }
+
+    .main-nav ul ul li a:hover {
+        background: #FFF;
+        color: #000;
+    }
+
+    .mainnav ul ul ul {
+    position: absolute; top:0;
     }
 
     sticknav {
@@ -571,11 +623,11 @@ h3 {
 
 @media only screen and (min-width: 60em) {
     .flex-logo {
-        width: 40%;
+        width: 20%;
     }
 
     .top-right-links {
-        padding: 14% 0 14% 0;
+        padding: 7% 5% 7% 0;
     }
 
     .box-1,
@@ -588,4 +640,5 @@ h3 {
     .flex-img {
         width: 100%;
     }
+
 }
