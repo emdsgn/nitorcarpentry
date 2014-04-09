@@ -79,17 +79,18 @@
 	font-size: 16px;
 	line-height: 20px;
 	font-weight: 300;
-	color: #fff;
+	color: #000;
 	outline: none;
+	text-decoration: none;
 }
 
 .no-touch .dl-menuwrapper li a:hover {
-	background: rgba(255,248,213,0.1);
+	background: rgba(0,0,0,0.1);
 }
 
 .dl-menuwrapper li.dl-back > a {
 	padding-left: 30px;
-	background: rgba(0,0,0,0.1);
+	background: rgba(0,0,0,0.3);
 }
 
 .dl-menuwrapper li.dl-back:after,
@@ -105,7 +106,7 @@
 
 .dl-menuwrapper li.dl-back:after {
 	left: 10px;
-	color: rgba(212,204,198,0.3);
+	color: rgba(212,204,198,0.9);
 	-webkit-transform: rotate(180deg);
 	-moz-transform: rotate(180deg);
 	transform: rotate(180deg);
@@ -980,7 +981,8 @@ All this is done for any sub-level being entered.
 .demo-2 .dl-menuwrapper button:hover,
 .demo-2 .dl-menuwrapper button.dl-active,
 .demo-2 .dl-menuwrapper ul {
-	background: #79a002;
+	background: #FFF;
+	z-index: 200;
 }
 
 /* Demo 3 */

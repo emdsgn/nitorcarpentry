@@ -83,16 +83,9 @@
   .unit-m-3-4 {
     width: 75%;
   }
-  .unit-m-4-5 {
-    width: 40%;
-  }
-
-  .unit-m-2-1 {
-    width: 60%;
-  }
 }
 
-@media only screen and (min-width: 43em) {
+@media only screen and (min-width: 40em) {
   .unit-m-1-2 {
     width: 50%;
   }

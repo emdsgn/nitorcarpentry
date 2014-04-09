@@ -16,12 +16,6 @@ html {
   font: normal 100%/1.4 'Helvetica',sans-serif;
 }
 
-body {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
-}
-
 .logo {
     background-color: #242120;
 }
@@ -33,11 +27,32 @@ body {
 }
 
 .s-logo {
-    width: 10%;
+    width: 100%;
 }
 
-.box {
-    min-height: 45px;
+.flex-img {
+    display: block;
+    width: 100%;
+}
+
+
+.flex-img-1 {
+    display: none;
+    width: 100%;
+}
+
+.flex-img-2 {
+    display: block;
+    width: 100%;
+}
+
+.para-img {
+    display: block;
+    width: 100%;
+}
+
+.para-img-2 {
+    display: none;
 }
 
 .top-right-links {
@@ -52,19 +67,8 @@ body {
     display: none;
 }
 
-.flex-img {
-    display: block;
-    width: 100%;
-}
-
-.flex-img-1 {
-    display: none;
-    width: 100%;
-}
-
-.flex-img-2 {
-    display: block;
-    width: 100%;
+.box {
+    min-height: 45px;
 }
 
 .box-1,
@@ -74,8 +78,7 @@ body {
 .box-5,
 .box-6 {
     background-color: #000;
-    padding: 2em;
-    width: 100%;
+    padding: 1em;
 }
 
 .box-5 {
@@ -98,6 +101,16 @@ h2 {
     text-transform: uppercase;
     margin: 0 auto;
     color: #FFF;
+}
+
+h3 {
+    font-family: 'Arvo', sans-serif;
+    font-weight: lighter;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #000;
 }
 
 .body {
@@ -194,16 +207,6 @@ h2 {
     border-right: 500px solid #4679BD;
 }
 
-h3 {
-    font-family: 'Arvo', sans-serif;
-    font-weight: lighter;
-    font-size: 1.2em;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin: 0 auto;
-    color: #000;
-}
-
 .testimonials {
     color: #FFF;
 }
@@ -213,8 +216,8 @@ h3 {
 }
 
 .testi-name {
-    float: right;
-    padding: 1em;
+    padding: 1em 0 0em 0;
+    margin: 0 auto;
 }
 
 .learn-more-1 {
@@ -244,7 +247,38 @@ h3 {
 }
 
 .paragon {
-    padding: 1em;
+    padding: 0.5em 1em 1em 1em;
+}
+
+.paragon-link {
+    padding: 0.5em 0 0 0;
+}
+
+.paragon-link li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.paragon-link a {
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 auto;
+    color: #000;
+    border-bottom: dotted 1px #000;
+    text-transform: uppercase;
+}
+
+.paragon-link a:link,
+.paragon-link a:visited {
+    text-decoration: none;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.paragon-link a:hover,
+.paragon-link a:focus {
+    background-color: #000;
+    color: #FFF;
 }
 
 .contact-head {
@@ -323,40 +357,6 @@ h3 {
     color: #FFF;
 }
 
-.paragon-link {
-    position: absolute;
-    z-index: 100;
-    margin-top: 7.1%;
-    margin-left: 15%;
-}
-
-.paragon-link li {
-    list-style-type: none;
-    display: inline-block;
-    padding: 0.5em 0.5em 0.5em 0;
-}
-
-.paragon-link a {
-    font-size: 0.8em;
-    text-align: center;
-    margin: 0 auto;
-    color: #FFF;
-    border-bottom: dotted 1px #000;
-    background-color: #000;
-}
-
-.paragon-link a:link,
-.paragon-link a:visited {
-    text-decoration: none;
-    padding: 0.5em 0 0.5em 0;
-}
-
-.paragon-link a:hover,
-.paragon-link a:focus {
-    background-color: #000;
-    color: #FFF;
-}
-
 .copyright {
     padding: 0 1em 0.5em 1em;
     border-top: solid 1px #000;
@@ -380,6 +380,15 @@ h3 {
     .contact-head {
         margin: 0 auto;
     }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 2em;
+    }
 }
 
 @media only screen and (min-width: 38em) {
@@ -395,10 +404,6 @@ h3 {
         display: none;
     }
 
-    .site-map {
-        text-align: left;
-    }
-
     .logo {
         background-color: transparent;
     }
@@ -408,11 +413,28 @@ h3 {
         margin: 0;
     }
 
+    .s-logo {
+        width: 30%;
+    }
+
+    .para-img {
+        display: none;
+    }
+
+    .para-img-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .unit-m-1 {
+        width: 100%;
+    }
+
     .top-right-links {
         display: block;
         margin: 0;
         text-align: right;
-        padding: 15% 0 15% 0;
+        padding: 15% 5% 15% 0;
     }
 
     .top-right-links p {
@@ -462,6 +484,7 @@ h3 {
     display: inline-table;
     margin: 0 auto;
     padding: 0;
+    font-size: 0.8em;
     }
 
     .main-nav ul:after {
@@ -503,7 +526,7 @@ h3 {
     }
 
     .main-nav ul ul li a {
-        padding: 15px 40px;
+        padding: 1em;
     }
 
     .main-nav ul ul li a:hover {
@@ -538,15 +561,23 @@ h3 {
     .box-5 {
         padding: 3em;
     }
+
+    .paragon {
+        padding: 1em 0 1em 0;
+    }
 }
 
-@media only screen and (min-width: 43em) {
+@media only screen and (min-width: 40em) {
+    .flex-logo {
+        width: 50%;
+    }
     .flex-img-2 {
         display: none;
     }
 
     .flex-img-1 {
         display: block;
+        max-height: 100%;
     }
 
     .box-1,
