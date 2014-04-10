@@ -803,7 +803,7 @@ h3 {
     .box-4,
     .box-5,
     .box-6 {
-        padding: 8em;
+        padding: 5em;
     }
 }
 
@@ -828,5 +828,18 @@ h3 {
 
     .copyright p {
         letter-spacing: 0.2em;
+    }
+
+    .bg-img {
+        position: absolute;
+    }
+
+    .box-4 {
+        position: relative;
+        background-color: rgba(0,0,0,0.7);
+    }
+
+    .pa-img {
+        position: relative;
     }
 }
