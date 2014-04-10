@@ -101,6 +101,9 @@
   .unit-m-3-4 {
     width: 75%;
   }
+}
+
+@media only screen and (min-width: 51em) {
   .unit-m-4-5 {
     width: 40%;
   }

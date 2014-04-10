@@ -21,6 +21,7 @@
 	padding-bottom: 30%; /* Image aspect ratio: height / width * 100 */
 	position: relative;
 	display: block;
+	margin-top: -2.6%;
 }
 
 .carousel-items img {
@@ -78,4 +79,10 @@
 .next:hover {
 	color: #50972B;
 }
+}
+
+@media only screen and (min-width: 60em) {
+	.carousel {
+	margin-top: 0%;
+	}
 }

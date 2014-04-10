@@ -111,6 +111,7 @@ h3 {
     text-transform: uppercase;
     margin: 0 auto;
     color: #000;
+    text-align: left;
 }
 
 .body {
@@ -250,8 +251,8 @@ h3 {
     padding: 0.5em 1em 1em 1em;
 }
 
-.paragon-link {
-    padding: 0.5em 0 0 0;
+.paragon-link p {
+    text-align: left;
 }
 
 .paragon-link li {
@@ -281,25 +282,47 @@ h3 {
     color: #FFF;
 }
 
+.paragon-link-1 li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.paragon-link-1 a {
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+    border-bottom: dotted 1px #FFF;
+    text-transform: uppercase;
+}
+
+.paragon-link-1 a:link,
+.paragon-link-1 a:visited {
+    text-decoration: none;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.paragon-link-1 a:hover,
+.paragon-link-1 a:focus {
+    background-color: #FFF;
+    color: #000;
+}
+
+
 .contact-head {
     margin: 0 auto;
     padding: 1em 0 0 0;
 }
 
-.contact-head-1 {
-    margin: 0 auto;
-    padding: 1em;
-}
 
 .contact-head p {
     font-size: 0.8em;
     margin: 0 auto;
+    text-align: left;
 }
 
 .contact-head a {
-    font-size: 0.8em;
-    text-align: center;
-    margin: 0 auto;
     color: #000;
     border-bottom: dotted 1px #000;
 }
@@ -319,6 +342,7 @@ h3 {
 .site-map {
     margin: 0 auto;
     padding: 0.5em 1em 1em 1em;
+    text-align: left;
 }
 
 .footer-nav {
@@ -539,7 +563,7 @@ h3 {
     }
 
     sticknav {
-    height: 30px;
+    height: 25px;
     width: 100%;
     margin-right: 0px;
     left: 0px;
@@ -565,19 +589,59 @@ h3 {
     .paragon {
         padding: 1em 0 1em 0;
     }
+
+    #contact {
+        padding: 1em;
+        margin: 0 auto;
+        text-align: center;
+    }
+
 }
 
 @media only screen and (min-width: 40em) {
     .flex-logo {
         width: 50%;
     }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 3em;
+    }
+
+    .testi-name {
+        float: right;
+    }
+
+    .bg {
+        background-color: #242120;
+    }
+}
+
+@media only screen and (min-width: 51em) {
+    .flex-logo {
+        width: 40%;
+    }
+
+    .s-logo {
+        width: 25%;
+    }
+
     .flex-img-2 {
         display: none;
     }
 
+    .flex {
+        width: 0;
+    }
+
     .flex-img-1 {
         display: block;
-        max-height: 100%;
+        width: 100%;
+    }
+
+    .top-right-links {
+        padding: 13% 5% 13%;
     }
 
     .box-1,
@@ -586,11 +650,19 @@ h3 {
         padding: 1em;
     }
 
-    .bg {
-        background-color: #242120;
+    .box-4 {
+        margin-top: -3%;
     }
 
-        /*Right pointing*/
+    .testimonials {
+        font-size: 0.8em;
+    }
+
+    dl {
+        margin: 1% 0 1% 0;
+    }
+
+    /*Right pointing*/
     .triangle-right {
         width: 0;
         height: 0;
@@ -623,7 +695,7 @@ h3 {
         overflow: hidden;
         display: block;
         position: absolute;
-        margin-left: -5%;
+        margin-left: -4.5%;
     }
     .triangle-left:after {
         content: "";
@@ -638,27 +710,13 @@ h3 {
     }
 }
 
-@media only screen and (min-width: 50em) {
-    .box-1,
-    .box-2,
-    .box-3 {
-        padding: 2em;
-    }
-
-    .box-4,
-    .box-5,
-    .box-6 {
-        padding: 5em;
-    }
-}
-
 @media only screen and (min-width: 60em) {
     .flex-logo {
-        width: 20%;
+        width: 35%;
     }
 
     .top-right-links {
-        padding: 7% 5% 7% 0;
+        padding: 12% 5% 12% 0;
     }
 
     .box-1,
@@ -672,4 +730,103 @@ h3 {
         width: 100%;
     }
 
+
+    .box-4 {
+        margin-top: 0%;
+    }
+
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 5em;
+    }
+
+    .main-nav ul {
+    font-size: 1em;
+    }
+
+    .para-img {
+        display: block;
+        width: 100%
+    }
+
+    .para-img-2 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 66em) {
+    .flex-logo {
+        width: 30%;
+    }
+
+    .s-logo {
+        width: 20%;
+    }
+
+    .top-right-links {
+        padding: 9.5% 5% 9.5% 0;
+    }
+
+    .testimonials {
+        font-size: 1em;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 4em;
+    }
+
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 7em;
+    }
+
+    .copyright p {
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (min-width: 72em) {
+    .top-right-links {
+        padding: 10% 5% 10% 0;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 5em;
+    }
+
+    .box-4,
+    .box-5,
+    .box-6 {
+        padding: 8em;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    .flex-logo {
+        width: 25%;
+    }
+
+    .s-logo {
+        width: 15%;
+    }
+
+    .top-right-links {
+        padding: 8.5% 5% 8.5% 0;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 8.5em;
+    }
+
+    .copyright p {
+        letter-spacing: 0.2em;
+    }
 }
