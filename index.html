@@ -3,41 +3,19 @@ layout: default
 ---
 
 <!-- BANNER/CAROUSEL (IMAGE SLIDE) -->
-<section class="screenshots" id="screenshots">
-  <div class="unit-spacer">
-    <div class="carousel">
-      <div class="carousel-items">
-        <img data-state="current" src="img/img-1.jpg" alt="" class="flex-img">
-        <img src="img/img-2.jpg" alt="" class="flex-img">
-        <img src="img/img-3.jpg" alt="" class="flex-img">
-        <img src="img/img-4.jpg" alt="" class="flex-img">
-      </div>
-      <div class="carousel-buttons">
-        <button class="prev">〈</button>
-        <button class="next">〉</button>
-      </div>
-    </div>
-  </div>
-</section>
+{% include slider.html %}
 
-<!-- Home Building -->
-<div class="grid bg">
-  <div class="unit unit-s-1 unit-m-1 unit-m-2-1 unit-l-2-1">
-    <img src="img/home-build.jpg" alt="Home Building" class="flex-img">
+<div class="grid box-7">
+  <div class="unit unit-s-1 unit-m-1 unit-l-1">
+    <h2>Building Character</h2>
+    <p class="body">At Nitor, we build to last and we stand by our quality work. Each of our projects comes with an industry-leading 5-year warranty – but we don’t think you’ll need it.<br><br>
+
+    Our full-service approach means that we have all the qualified trades on staff, or we are partnered with qualified professionals that we have carefully vetted, and have worked with for many years.<br><br>
+
+    Throughout the project, we’ll keep you up-to-date on how your project is progressing, and we promise you will be as satisfied with the process as you are with the end product.</p>
   </div>
 
-  <div class="unit unit-s-1 unit-m-1 unit-m-4-5 unit-l-4-5">
-  <div class="triangle-left"></div>
-  <div class="box-2">
-    <h2>Custom Home Build</h2>
-    <p class="body">Nitor is a full-service, custom homebuilding company that specializes in providing turn-key solutions, and added value for our clients. From Engineers and Professional Project Managers, to Carpenters and skilled craftsmen, Nitor employs all the expertise required to complete the design, construction, and finishing details of your home.</p><br>
-
-    <p class="body">We can build-to-print, or we can start from scratch and work with you on design, materials selection, schedule and budget projections, to ensure that your project meets all of your expectations</p>
-
-    <div class="unit unit-s-2-3 unit-m-1 unit-l-1 learn-more">
-      <a href="home-build.html">Learn More</a>
-    </div>
-    <div class="testimonials">
+  <div class="testimonials" id="testi">
       <div class="unit unit-s-1 unit-m-1 unit-l-1">
           <dl>
             <dt></dt>
@@ -46,6 +24,25 @@ layout: default
             <dd class="testi-name"></dd>
           </dl>
       </div>
+    </div>
+</div>
+
+<!-- CUSTOM HOME -->
+<div class="grid bg">
+  <div class="unit unit-s-1 unit-m-1 unit-m-2-1 unit-l-2-1">
+    <img src="img/home-build.jpg" alt="Home Building" class="flex-img">
+  </div>
+
+  <div class="unit unit-s-1 unit-m-1 unit-m-4-5 unit-l-4-5">
+  <div class="triangle-left"></div>
+  <div class="box-2">
+    <h2>Custom Homes</h2>
+    <p class="body">Nitor is a full-service, custom homebuilding company that specializes in providing turn-key solutions, and added value for our clients. From Engineers and Professional Project Managers, to Carpenters and skilled craftsmen, Nitor employs all the expertise required to complete the design, construction, and finishing details of your home.</p>
+
+    <p class="body">We can build-to-print, or we can start from scratch and work with you on design, materials selection, schedule and budget projections, to ensure that your project meets all of your expectations</p>
+
+    <div class="unit unit-s-2-3 unit-m-1 unit-l-1 learn-more">
+      <a href="custom-home.html">Learn More</a>
     </div>
   </div>
 </div>
@@ -64,17 +61,6 @@ layout: default
     <div class="unit unit-s-2-3 unit-m-1 unit-l-1 learn-more">
       <a href="boutique.html">Learn More</a>
     </div>
-
-    <div class="testimonials" id="testi">
-      <div class="unit unit-s-1 unit-m-1 unit-l-1">
-          <dl>
-            <dt></dt>
-            <dd class="testi-quote"></dd>
-            <dt class=""></dt>
-            <dd class="testi-name"></dd>
-          </dl>
-      </div>
-    </div>
   </div>
     </div>
 
@@ -89,7 +75,15 @@ layout: default
   <div class="unit unit-s-1 unit-m-1 unit-l-1 flex">
   <img src="img/add-reno.jpg" class="flex-img-2">
   </div>
+
+  <div class="unit unit-s-1 unit-m-2-1 unit-l-2-1">
+  <div class="arrow">
+  <img src="img/add-reno.jpg" alt="Additions and Renovations" class="flex-img-1">
+  </div>
+  </div>
+
   <div class="unit unit-s-1 unit-m-1 unit-m-4-5 unit-l-4-5">
+  <div class="triangle-left"></div>
   <div class="box-3">
     <h2>Additions & Renovations</h2>
     <p class="body">When it comes to renovations we are your subject matter experts. Our experienced and qualified team will ensure proper and precise planning to eliminate costly surprises, and do the job correctly, on-time and on-budget.</p>
@@ -97,21 +91,32 @@ layout: default
     <div class="unit unit-s-2-3 unit-m-1 unit-l-1 learn-more">
       <a href="add-reno.html">Learn More</a>
     </div>
-    <div class="testimonials">
-      <div class="unit unit-s-1 unit-m-1 unit-l-1">
-          <dl>
-            <dt></dt>
-            <dd class="testi-quote"></dd>
-            <dt class=""></dt>
-            <dd class="testi-name"></dd>
-          </dl>
-      </div>
+  </div>
+  </div>
+</div>
+
+<!-- COMMERCIAL -->
+<div class="grid bg">
+  <div class="unit unit-s-1 unit-m-1 unit-l-1 flex">
+  <img src="img/commercial.jpg" class="flex-img-2">
+  </div>
+  <div class="unit unit-s-1 unit-m-1 unit-m-4-5 unit-l-4-5">
+  <div class="box-3">
+    <h2>Commercial</h2>
+    <p class="body">Nitor is fully equipped, trained, and insured to provide a wide range of services for commercial and industrial clients.</p>
+
+    <p class="body">Nitor specializes in providing turn-key solutions, that minimizes the risks of undertaking industrial and commercial repairs and renovations.</p>
+
+    <div class="unit unit-s-2-3 unit-m-1 unit-l-1 learn-more">
+      <a href="commercial.html">Learn More</a>
     </div>
   </div>
   </div>
 
   <div class="unit unit-s-1 unit-m-2-1 unit-l-2-1">
+  <div class="arrow">
   <div class="triangle-right"></div>
-  <img src="img/add-reno.jpg" alt="Additions and Renovations" class="flex-img-1">
+  <img src="img/commercial.jpg" alt="Additions and Renovations" class="flex-img-1">
+  </div>
   </div>
 </div>

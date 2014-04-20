@@ -1,7 +1,8 @@
 ---
 ---
 
-{% include css/carousel.css %}
+{% include css/quake.slider.css %}
+{% include css/quake.skin.css %}
 {% include css/common.css %}
 {% include css/component.css %}
 {% include css/default.css %}

@@ -1,0 +1,237 @@
+.quake-slider
+{
+    background: url('img/loading.gif') no-repeat center;
+    width: 100%;
+    height: 400px;
+    
+    /*box-shadow: 0px 0px 2px #090909;*/
+    background-color: White;
+    display: block;
+}
+.quake-nav
+{
+    width: 100%;
+}
+.quake-nav a
+{
+    width: 67px;
+    height: 67px;
+}
+.quake-prev
+{
+    background-image: url('../img/arrow-left.png');
+    margin-left: 10px;
+}
+.quake-next
+{
+    background-image: url('../img/arrow-right.png');
+}
+.quake-prev:hover
+{
+    background-image: url('../img/arrow-left-active.png');
+}
+.quake-next:hover
+{
+    background-image: url('../img/arrow-right-active.png');
+}
+
+.quake-slider-caption-container
+{
+    background-color: transparent;
+}
+.quake-slider-caption-container.vertical
+{
+    width: 100%;
+    height: 310px;
+    padding-left: 25px;
+}
+.quake-slider-caption-container.horizontal
+{
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+}
+.quake-slider-caption-container.vertical.left
+{
+    left: 0px;
+}
+
+.quake-slider-caption-container.vertical.right
+{
+    right: 0px;
+}
+
+.quake-slider-caption-container.horizontal.top
+{
+    top: 0px;
+}
+
+.quake-slider-caption-container.horizontal.bottom
+{
+    bottom: 0px;
+}
+
+.quake-slider-caption
+{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: Arial;
+    padding: 2.5em;
+    line-height:1.5em;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quake-slider-caption h2 {
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+.quake-slider-caption .body {
+    font-size: 0.8em;
+    font-weight: lighter;
+    line-height: 1em;
+}
+
+.quake-slider-caption.vertical
+{
+    width: 100%;
+    height: 306px;
+}
+.quake-slider-caption.horizontal
+{
+    width: 100%;
+    height: 50px;
+}
+.quake-slider-caption.vertical.left
+{
+    left: 0px;
+}
+.quake-slider-caption.vertical.right
+{
+    right: 0px;
+}
+.quake-slider-caption.horizontal.top
+{
+    top: 0px;
+}
+.quake-slider-caption.horizontal.bottom
+{
+    bottom: 0px;
+    margin-bottom: 0px;
+}
+.quake-nav-wrapper
+{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.quake-nav-wrapper.outside
+{
+    background-color: #1c1c1c;
+    border-radius: 0px 0px 8px 8px;
+    -moz-border-radius: 0px 0px 8px 8px;
+    -webkit-border-radius: 0px 0px 8px 8px;
+    /* background-image: url('images/transparent.png');*/
+    margin: auto;
+    width: 100%;
+    padding:6px;
+    box-shadow:0px 1px 2px #424242;
+}
+.quake-nav-wrapper.inside
+{
+    margin: -50px auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 7px;
+    padding-top: 30px;
+    border-radius: 8px 8px 0px 0px;
+    -moz-border-radius:8px 8px 0px 0px;
+    -webkit-border-radius: 8px 8px 0px 0px;
+}
+.quake-nav-container
+{
+    padding: 0;
+    margin: auto;
+}
+.quake-nav-control
+{
+    width: 22px;
+    height: 22px;
+    background-image: url('../img/circle.png');
+    background-repeat: no-repeat;
+}
+.quake-nav-control.active
+{
+    background-image: url('../img/circle-active.png');
+}
+.quake-highlight
+{
+    color: Yellow;
+}
+.quake-highlight a
+{
+    color: Yellow;
+}
+.quake-link
+{
+    position: absolute;
+    z-index: 101;
+}
+.quake-thumbnail
+{
+    width: 98px;
+    height: 76px;
+    background: url('../img/thumb_bg.png') no-repeat center center;
+}
+.quake-thumbnail-preview
+{
+    width: 84px;
+    height: 48px;
+    margin: 7px 0 0 7px;
+    background-color: White;
+}
+.quake-thumbnail-preview img
+{
+    border: none;
+}
+
+@media only screen and (min-width: 40em) {
+    .quake-slider-caption {
+    padding: 4em 3em 3em 3em;
+    }
+}
+
+@media only screen and (min-width: 52em) {
+    .quake-slider-caption {
+    padding: 6em 4em 4em 4em;
+    }
+
+    .quake-nav-wrapper.inside {
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .quake-slider-caption {
+    padding: 8em 4em 4em 4em;
+    }
+
+    .quake-nav-wrapper.inside {
+        padding-top: 25px;
+    }
+}
+
+@media only screen and (min-width: 71em) {
+    .quake-slider-caption {
+    padding: 9em;
+    }
+
+    .quake-nav-wrapper.inside {
+        padding-top: 25px;
+    }
+}

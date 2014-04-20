@@ -19,7 +19,7 @@
 }
 
 .unit-spacer {
-  padding: 0 auto;
+  padding: 1em;
 }
 
 .unit-full {
@@ -101,15 +101,27 @@
   .unit-m-3-4 {
     width: 75%;
   }
+
+  .unit-m-3-2 {
+    width: 39.4%;
+  }
 }
 
 @media only screen and (min-width: 51em) {
+  .unit-m-1-2 {
+    width: 50%;
+  }
+
   .unit-m-4-5 {
     width: 40%;
   }
 
   .unit-m-2-1 {
     width: 60%;
+  }
+
+  .unit-m-1-3-1 {
+    width: 39%;
   }
 }
 
@@ -124,6 +136,11 @@
   .unit-l-1-2 {
     width: 50%;
   }
+
+  .unit-l-1-2-1 {
+    width: 59%;
+  }
+  
   .unit-l-1-3 {
     width: 33.33333%;
   }

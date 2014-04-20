@@ -1,0 +1,194 @@
+.quake-slider-wrapper {
+    display: none;
+}
+
+@media only screen and (min-width: 38em) {
+.quake-slider-wrapper
+{
+    position: relative;
+    width: 100%;
+    display: block;
+    z-index: 100;
+}
+
+.quake-dn {
+    width: 100%;
+    left: 0;
+}
+
+.quake-slider-images img {
+    display: block;
+    width: 100%;
+}
+
+.quake-slider
+{
+    position: relative;
+    overflow: hidden;
+}
+.quake-nav
+{
+    position: absolute;
+    z-index: 10000;
+    top: 45%;
+}
+.quake-nav a
+{
+    position: absolute;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    z-index: 10000;
+    cursor: pointer;
+    text-indent: -9999px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.quake-prev
+{
+    left: 0px;
+}
+.quake-next
+{
+    right: 0px;
+    left: 530px;
+}
+.quake-slider-caption-container
+{
+    position: absolute;
+    z-index: 101;
+    padding: 0;
+}
+.quake-slider-caption
+{
+    position: absolute;
+    z-index: 102;
+    padding: 0;
+}
+
+.quake-nav-wrapper
+{
+    position: relative;
+    z-index: 102;
+}
+.quake-nav-container
+{
+    margin: auto;
+    margin-top: 20px;
+}
+.quake-nav-control
+{
+    cursor: pointer;
+    display: inline-block;
+    text-indent: -9999px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    outline: none;
+}
+
+.quake-link
+{
+    position: absolute;
+    z-index: 101;
+}
+.quake-thumbnail
+{
+    position: absolute;
+    z-index: 111;
+    overflow: hidden;
+}
+.quake-thumbnail-preview
+{
+    overflow: hidden;
+}
+.quake-thumbnail-preview img
+{
+    border: none;
+}
+}
+
+@media only screen and (min-width: 40em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 660px;
+    }
+}
+
+@media only screen and (min-width: 52em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 760px;
+    }
+}
+
+@media only screen and (min-width: 58em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 860px;
+    }
+}
+
+@media only screen and (min-width: 60em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 960px;
+    }
+}
+
+@media only screen and (min-width: 71em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1060px;
+    }
+}
+
+@media only screen and (min-width: 77em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1160px;
+    }
+}
+
+@media only screen and (min-width: 77em) {
+    .quake-dn {
+        width: 100%
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1360px;
+    }
+}
