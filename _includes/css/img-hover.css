@@ -309,16 +309,16 @@
     }
 
     .p-img-1 {
-        height: 320px;
+        height: 213px;
     }
 
 
     .p-img-1 .caption {
-        font-size: 1em;
+        font-size: 0.8em;
     }
 
     .fade-caption-1 {
-        height: 320px;
+        height: 213px;
         padding: 1em;
     }
 }

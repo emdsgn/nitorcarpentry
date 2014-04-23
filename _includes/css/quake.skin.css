@@ -1,6 +1,6 @@
 .quake-slider
 {
-    background: url('img/loading.gif') no-repeat center;
+    background: url('../img/loading.gif') no-repeat center;
     width: 100%;
     height: 400px;
     
@@ -86,12 +86,15 @@
 .quake-slider-caption h2 {
     font-size: 1.2em;
     color: #FFF;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.70);
 }
 
 .quake-slider-caption .body {
     font-size: 0.8em;
     font-weight: lighter;
     line-height: 1em;
+    text-shadow: 3px 1px 3px rgba(0, 0, 0, 0.70);
+    padding: 0 3em 0 3em;
 }
 
 .quake-slider-caption.vertical
@@ -200,9 +203,22 @@
     border: none;
 }
 
+@media only screen and (min-width: 38em) {
+    .quake-slider-caption {
+    padding: 6em 3em 3em 3em;
+    }
+}
+
+
 @media only screen and (min-width: 40em) {
     .quake-slider-caption {
-    padding: 4em 3em 3em 3em;
+    padding: 6em 3em 3em 3em;
+    }
+}
+
+@media only screen and (min-width: 46em) {
+    .quake-slider-caption {
+    padding: 7em 4em 4em 4em;
     }
 }
 

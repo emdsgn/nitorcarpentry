@@ -118,7 +118,29 @@
 
 @media only screen and (min-width: 40em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 560px;
+    }
+}
+
+@media only screen and (min-width: 45em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 640px;
+    }
+}
+
+@media only screen and (min-width: 46em) {
+    .quake-dn {
+        width: 100%;
     }
 
     .quake-next {
@@ -129,7 +151,7 @@
 
 @media only screen and (min-width: 52em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
     }
 
     .quake-next {
@@ -140,7 +162,7 @@
 
 @media only screen and (min-width: 58em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
     }
 
     .quake-next {
@@ -151,18 +173,40 @@
 
 @media only screen and (min-width: 60em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
     }
 
     .quake-next {
     right: 0px;
-    left: 960px;
+    left: 880px;
     }
 }
 
-@media only screen and (min-width: 71em) {
+@media only screen and (min-width: 64em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 940px;
+    }
+}
+
+@media only screen and (min-width: 66em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 980px;
+    }
+}
+
+@media only screen and (min-width: 72em) {
+    .quake-dn {
+        width: 100%;
     }
 
     .quake-next {
@@ -173,7 +217,7 @@
 
 @media only screen and (min-width: 77em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
     }
 
     .quake-next {
@@ -184,11 +228,77 @@
 
 @media only screen and (min-width: 77em) {
     .quake-dn {
-        width: 100%
+        width: 100%;
     }
 
     .quake-next {
     right: 0px;
     left: 1360px;
+    }
+}
+
+@media only screen and (min-width: 80em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1200px;
+    }
+}
+
+@media only screen and (min-width: 85em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1290px;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1360px;
+    }
+}
+
+@media only screen and (min-width: 100em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1500px;
+    }
+}
+
+@media only screen and (min-width: 105em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1600px;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    .quake-dn {
+        width: 100%;
+    }
+
+    .quake-next {
+    right: 0px;
+    left: 1840px;
     }
 }
