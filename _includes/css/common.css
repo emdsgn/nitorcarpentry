@@ -152,6 +152,7 @@ h3 {
     margin: 0 auto;
     padding: 0 0 0.5em 0.5em;
     list-style-type: none;
+    color: #FFF;
 }
 
 .ul-body li:before {
@@ -782,12 +783,12 @@ h3 {
     }
 
     .bg-img img {
-        max-height: 90%;
+        max-height: 100%;
         max-width: 100%;
     }
 
     .bg-img-1 img {
-        max-height: 90%;
+        max-height: 100%;
         max-width: 100%;
     }
 
@@ -834,6 +835,10 @@ h3 {
 
     .ul-padding {
         padding: 1em 0 1em 2.5em;
+    }
+
+    .reno-service {
+        font-size: 1.2em;
     }
 
     dl {
