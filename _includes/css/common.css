@@ -27,14 +27,13 @@ html {
 }
 
 .s-logo {
-    width: 100%;
+    width: 8%;
 }
 
 .flex-img {
     display: block;
     width: 100%;
 }
-
 
 .flex-img-1 {
     display: none;
@@ -50,7 +49,7 @@ html {
     display: none;
 }
 
-.bg-1 {
+.arrow {
     display: none;
 }
 
@@ -72,15 +71,11 @@ html {
     display: none;
 }
 
-.main-nav {
-    display: none;
-}
-
 .dnav {
     display: none;
 }
 
-.arrow {
+.main-nav {
     display: none;
 }
 
@@ -93,24 +88,34 @@ html {
 .box-3,
 .box-4,
 .box-6 {
-    background-color: #282725;
     padding: 1em;
+    background-color: #282725;
 }
 
 .box-5,
-.box-7 {
+.box-7,
+.box-8 {
     background-color: #FFF;
     padding: 1em;
 }
 
 .box-5 h2,
-.box-7 h2 {
+.box-7 h2,
+.box-8 h2 {
     color: #000;
 }
 
 .box-5 p,
-.box-7 p {
+.box-7 p,
+.box-8 p {
     color: #000;
+}
+
+.body {
+    font-size: 0.9em;
+    margin: 0 auto;
+    color: #FFF;
+    letter-spacing: 0.01em;
 }
 
 h2 {
@@ -148,9 +153,13 @@ h3 {
     font-weight: bold;  
 }
 
+.reno-img {
+    padding-bottom: 10%;
+}
+
 .ul-body {
     margin: 0 auto;
-    padding: 0 0 0.5em 0.5em;
+    padding: 0 0 0.5em 1em;
     list-style-type: none;
     color: #FFF;
 }
@@ -173,10 +182,6 @@ h3 {
     list-style-type: none;
 }
 
-.ul-padding {
-    padding: 0;
-}
-
 .ul-body a {
     margin: 0 auto;
     color: #FFF;
@@ -193,13 +198,6 @@ h3 {
     background-color: #FFF;
     color: #000;
     padding: 0.5em;
-}
-
-.body {
-    font-size: 0.9em;
-    margin: 0 auto;
-    color: #FFF;
-    letter-spacing: 0.01em;
 }
 
 .learn-more {
@@ -354,7 +352,6 @@ h3 {
     margin: 0 auto;
 }
 
-
 .contact-head p {
     font-size: 0.8em;
     margin: 0 auto;
@@ -503,7 +500,8 @@ h3 {
     .box-4,
     .box-5,
     .box-6,
-    .box-7 {
+    .box-7,
+    .box-8 {
         padding: 2em;
     }
 }
@@ -519,7 +517,8 @@ h3 {
     .box-4,
     .box-5,
     .box-6,
-    .box-7 {
+    .box-7,
+    .box-8 {
         padding: 3em;
     }
 }
@@ -529,12 +528,9 @@ h3 {
         display: none;
     }
 
-    .container {
-        display: none;
-    }
-
-    .box {
-        display: none;
+    .flex-logo {
+        width: 100%;
+        margin: 0;
     }
 
     .add-img {
@@ -546,20 +542,19 @@ h3 {
         display: none;
     }
 
+    .para-img-2 {
+        display: block;
+        width: 100%;
+    }
+
+    .container {
+        display: none;
+    }
+
     .dnav {
         display: block;
         position: absolute;
         z-index: 10000;
-    }
-
-    .flex-logo {
-        width: 100%;
-        margin: 0;
-    }
-
-    .para-img-2 {
-        display: block;
-        width: 100%;
     }
 
     .main-nav {
@@ -579,12 +574,12 @@ h3 {
     }
 
     .main-nav .ul-1 {
-    list-style: none;
-    position: relative;
-    display: inline-table;
-    margin: 0 auto;
-    padding: 0;
-    font-size: 0.7em;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 0.7em;
     }
 
     .main-nav ul:after {
@@ -615,9 +610,9 @@ h3 {
     }
 
     .main-nav ul ul {
-    background-color: rgba(0,0,0,0.8); padding: 0;
-    position: absolute;
-    z-index: 170;
+        background-color: rgba(0,0,0,0.8); padding: 0;
+        position: absolute;
+        z-index: 170;
     }
 
     .main-nav ul ul li {
@@ -636,32 +631,74 @@ h3 {
     }
 
     .mainnav ul ul ul {
-    position: absolute; top:0;
+        position: absolute; top:0;
     }
 
     sticknav {
-    height: 25px;
-    width: 100%;
-    margin-right: 0px;
-    left: 0px;
-    position: relative;
-    z-index: 9999;
-    text-align: center;
+        height: 25px;
+        width: 100%;
+        margin-right: 0px;
+        left: 0px;
+        position: relative;
+        z-index: 9999;
+        text-align: center;
     }
 
-    .fixed { position:fixed;}
+    .fixed {
+        position: fixed;
+    }
+
+    .nitor {
+        margin-top: -4%;
+    }
+
+    .top-right-links {
+        display: block;
+        text-align: right;
+        padding: 0.5em 1em 0 0;
+        margin: 0;
+    }
+
+    .top-right-links p {
+        display: inline-block;
+        color: #FFF;
+        padding: 0 0.5em 0 0.5em;
+    }
+
+    .top-right-links a {
+        text-transform: uppercase;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 0.8em;
+        border-bottom: 1px dotted #FFF;
+        padding-bottom: 0.3em;
+    }
+
+    .top-right-links a:hover {
+        text-transform: uppercase;
+        color: #FFF;
+        text-decoration: none;
+        font-size: 0.8em;
+        border-bottom: 1px dotted #000;
+        padding-bottom: 0.3em;
+    }
+
+    .box {
+        display: none;
+    }
 
     .box-1,
     .box-2,
     .box-3,
     .box-4,
     .box-6,
-    .box-7 {
+    .box-7,
+    .box-8 {
         padding: 3em;
     }
 
     .box-5 {
-        padding: 6em 3em 3em 3em;
+        padding: 9em 3em 3em 3em;
         background-color: #282725;
         display: block;
         width: 100%;
@@ -696,7 +733,6 @@ h3 {
         margin: 0 auto;
         text-align: center;
     }
-
 }
 
 @media only screen and (min-width: 46em) {
@@ -704,9 +740,15 @@ h3 {
         padding-bottom: 25%;
     }
 
-    .box-5 {
-        padding-top: 7em;
+    .main-nav ul li {
+        padding: 0 0.5em 0 0.5em;
     }
+
+    .main-nav ul ul {
+        margin: 0 0 0 -1%;
+    }
+
+
 }
 
 @media only screen and (min-width: 51em) {
@@ -720,10 +762,6 @@ h3 {
     .flex-logo {
         width: 100%;
         display: block;
-    }
-
-    .s-logo {
-        width: 25%;
     }
 
     .flex-img-2 {
@@ -796,11 +834,16 @@ h3 {
         display: block;
         position: relative;
         background: rgba(40,38,37,0.85);
-        padding-top: 15%;
+        padding-top: 20%;
     }
 
     .custom {
-        padding-bottom: 4.8%;
+        padding-bottom: 1.5%;
+    }
+
+    .commercial {
+        padding-right: 2em;
+        padding-bottom: 8%;
     }
 
     .reno,
@@ -820,11 +863,6 @@ h3 {
         padding-top: 1em;
     }
 
-    .commercial {
-        padding-right: 2em;
-        padding-bottom: 12.5%;
-    }
-
     .reno-img {
         padding-bottom: 25%;
     }
@@ -839,6 +877,19 @@ h3 {
 
     .reno-service {
         font-size: 1.2em;
+    }
+
+    .reno {
+        font-size: 1.1em;
+        padding-left: 1em;
+    }
+
+    .services {
+        font-size: 1.1em;
+    }
+
+    .ul-body-1 {
+        padding-left: 1em;
     }
 
     dl {
@@ -895,23 +946,21 @@ h3 {
 
 @media only screen and (min-width: 58em) {
     .box-1,
-    .box-2,
     .box-3 {
         padding: 2em;
     }
 
-    .box-4 {
-        padding-bottom: 14%;
-    }
-
     .box-5 {
-        padding-top: 8em;
+        padding-top: 10em;
     }
 
     .custom {
         padding-bottom: 3%;
-        padding-top: 15%;
     }
+
+    .commercial {
+        padding-bottom: 14.4%;
+    }  
 
     .add-1 {
         padding-bottom: 3.5%;
@@ -921,9 +970,13 @@ h3 {
         padding-bottom: 20%;
     }
 
-    .commercial {
-        padding-bottom: 6.5%;
-    }    
+    .main-nav ul li {
+        padding: 0 1em 0 1em;
+    }
+
+    .main-nav ul ul {
+        margin: 0 0 0 -1.9%;
+    }  
 }
 
 @media only screen and (min-width: 60em) {
@@ -936,22 +989,26 @@ h3 {
         width: 100%;
     }
 
+    .box-2 {
+        padding: 1.8em;
+    }
+
     .box-1,
-    .box-2,
     .box-3,
     .box-4,
-    .box-5,
-    .box-6 {
+    .box-5 {
         padding: 2.5em;
     }
 
-    .box-7 {
+    .box-6,
+    .box-7,
+    .box-8 {
         padding: 4em;
     }
 
     .box-4,
     .box-5 {
-        padding-top: 15%;
+        padding-top: 18%;
     }
 
     .box-4 .body {
@@ -959,7 +1016,7 @@ h3 {
     }
 
     .commercial {
-        padding-bottom: 1%;
+        padding-bottom: 0%;
     }
 
     .main-nav ul {
@@ -982,52 +1039,35 @@ h3 {
     .box-7 .body {
         font-size: 1em;
     }
-
-    .top-right-links {
-        display: block;
-        text-align: right;
-        padding: 0.5em 1em 0 0;
-        margin: 0;
-    }
-
-    .top-right-links p {
-        display: inline-block;
-    }
-
-    .top-right-links a {
-        text-transform: uppercase;
-        color: #FFF;
-        text-decoration: none;
-        font-size: 0.8em;
-    }
-
-    .s-logo {
-        width: 8%;
-    }
-
-    .nitor {
-        margin-top: -5%;
-    }
-
-    .main-nav {
-        margin-top: 0;
-    }
-
 }
 
 @media only screen and (min-width: 66em) {
+    .s-logo {
+        width: 7%;
+    }
+
+    .main-nav ul li {
+        padding: 0 2em 0 2em;
+    }
+
+    .main-nav ul ul {
+        margin: 0 0 0 -3.3%;
+    }  
+
     .box-1,
     .box-2,
     .box-3 {
         padding: 3em;
     }
 
-    .box-7 {
+    .box-6,
+    .box-7,
+    .box-8 {
         padding: 5em;
     }
 
     .commercial {
-        padding-bottom: 7%;
+        padding-bottom: 8.6%;
     }
 
     .reno-img {
@@ -1036,9 +1076,6 @@ h3 {
 
     .copyright p {
         font-size: 0.5em;
-    }
-    .s-logo {
-        width: 8%;
     }
 }
 
@@ -1049,14 +1086,28 @@ h3 {
     }
 
     .commercial {
-        padding-bottom: 11%;
+        padding-bottom: 12%;
     }
+
+    .box-6 .body,
+    .box-8 .body {
+        font-size: 1.1em;
+    }
+
     .s-logo {
-        width: 8%;
+        width: 6%;
     }
 }
 
 @media only screen and (min-width: 80em) {
+    .main-nav ul li {
+        padding: 0 3em 0 3em;
+    }
+
+    .main-nav ul ul {
+        margin: 0 0 0 -4.3%;
+    }
+
     .body {
         font-size: 1.1em;
     }
@@ -1064,10 +1115,6 @@ h3 {
     .box-1,
     .box-3 {
         padding: 3.5em;
-    }
-
-    .box-7 {
-        padding: 5em;
     }
 
     .box-7 .body {
@@ -1081,12 +1128,16 @@ h3 {
     .testimonials {
         font-size: 1.2em;
     }
-    .s-logo {
-        width: 8%;
+
+    .commercial {
+        padding-bottom: 16.8%;
     }
 }
 
 @media only screen and (min-width: 85em) {
+    .s-logo {
+        width: 5%;
+    }
     .body {
         font-size: 1.1em;
     }
@@ -1097,7 +1148,9 @@ h3 {
         padding: 4em;
     }
 
-    .box-7 {
+    .box-6,
+    .box-7,
+    .box-8 {
         padding: 7em;
     }
 
@@ -1114,16 +1167,35 @@ h3 {
     }
 
     .commercial {
-        padding-bottom: 8%;
+        padding-bottom: 13.5%;
+    }
+
+    .reno-img {
+        padding-bottom: 15%;
     }
 }
 
 @media only screen and (min-width: 90em) {
+    .s-logo {
+        width: 4%;
+    }
+
+    .main-nav ul li {
+        padding: 0 4em 0 4em;
+    }
+
+    .main-nav ul ul {
+        margin: 0 0 0 -5%;
+    }
 
     .box-1,
     .box-2,
     .box-3 {
         padding: 5em;
+    }
+
+    .reno-img {
+        padding-bottom: 14%;
     }
 
     .copyright p {
@@ -1135,6 +1207,6 @@ h3 {
     }
 
     .commercial {
-        padding-bottom: 17.5%;
+        padding-bottom: 9.8%;
     }
 }
