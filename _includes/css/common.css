@@ -150,11 +150,7 @@ h3 {
 .reno-p  {
     margin: 0 auto;
     color: #FFF;
-    font-weight: bold;  
-}
-
-.reno-img {
-    padding-bottom: 10%;
+    font-weight: bold;
 }
 
 .ul-body {
@@ -465,9 +461,6 @@ h3 {
 }
 
 @media only screen and (min-width: 21em) {
-    .reno-img {
-        padding-bottom: 45%;
-    }
 
     .box-1,
     .box-2,
@@ -599,7 +592,7 @@ h3 {
     }
 
     .main-nav ul li a {
-        display: block; 
+        display: block;
         padding: 1em;
         color: #FFF; text-decoration: none;
         text-transform: uppercase;
@@ -716,10 +709,6 @@ h3 {
         font-size: 1.1em;
     }
 
-    .reno-img {
-        padding-bottom: 30%;
-    }
-
     .paragon {
         padding: 0em 0 0em 0;
     }
@@ -736,10 +725,6 @@ h3 {
 }
 
 @media only screen and (min-width: 46em) {
-    .reno-img {
-        padding-bottom: 25%;
-    }
-
     .main-nav ul li {
         padding: 0 0.5em 0 0.5em;
     }
@@ -863,10 +848,6 @@ h3 {
         padding-top: 1em;
     }
 
-    .reno-img {
-        padding-bottom: 25%;
-    }
-
     .body-text {
         padding-right: 2em;
     }
@@ -960,14 +941,10 @@ h3 {
 
     .commercial {
         padding-bottom: 14.4%;
-    }  
+    }
 
     .add-1 {
         padding-bottom: 3.5%;
-    }
-
-    .reno-img {
-        padding-bottom: 20%;
     }
 
     .main-nav ul li {
@@ -976,7 +953,7 @@ h3 {
 
     .main-nav ul ul {
         margin: 0 0 0 -1.9%;
-    }  
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -1052,7 +1029,7 @@ h3 {
 
     .main-nav ul ul {
         margin: 0 0 0 -3.3%;
-    }  
+    }
 
     .box-1,
     .box-2,
@@ -1068,10 +1045,6 @@ h3 {
 
     .commercial {
         padding-bottom: 8.6%;
-    }
-
-    .reno-img {
-        padding-bottom: 18%;
     }
 
     .copyright p {
@@ -1170,9 +1143,6 @@ h3 {
         padding-bottom: 13.5%;
     }
 
-    .reno-img {
-        padding-bottom: 15%;
-    }
 }
 
 @media only screen and (min-width: 90em) {
@@ -1194,10 +1164,6 @@ h3 {
         padding: 5em;
     }
 
-    .reno-img {
-        padding-bottom: 14%;
-    }
-
     .copyright p {
         letter-spacing: 0.2em;
     }
@@ -1207,6 +1173,38 @@ h3 {
     }
 
     .commercial {
-        padding-bottom: 9.8%;
+        padding-bottom: 11%;
+    }
+
+    #contact {
+        padding: 4em;
+    }
+}
+
+@media only screen and (min-width: 119em) {
+    .s-logo {
+        width: 3%;
+    }
+
+    .flex-logo {
+        width: 75%;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3 {
+        padding: 7em;
+    }
+
+    .box-5 {
+        padding: 10% 4em 2.5em 4em;
+    }
+
+    .box-4 {
+        padding: 10% 3em 2.5em 3em;
+    }
+
+    .commercial {
+        padding-bottom: 20.8%;
     }
 }
