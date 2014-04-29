@@ -1090,6 +1090,10 @@ h3 {
         padding: 3.5em;
     }
 
+    .box-4 {
+        padding-top: 15%;
+    }
+
     .box-7 .body {
         font-size: 1.2em;
     }
@@ -1103,7 +1107,15 @@ h3 {
     }
 
     .commercial {
-        padding-bottom: 16.8%;
+        padding-bottom: 8%;
+    }
+
+    .pa-img {
+        width: 80%;
+    }
+
+    .reno {
+        padding-left: 3.5em;
     }
 }
 
