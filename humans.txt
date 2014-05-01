@@ -1,0 +1,11 @@
+/* TEAM */
+Your title: Mansura Chowdhury
+Site: c.mansura@gmail.com
+Twitter: emdsgns
+Location: Ottawa, Canada.
+
+/* SITE */
+Last update: 2014/05/01
+Standards: HTML5, CSS3,..
+Components: Modernizer, jQuery, etc.
+Software: Sublime
