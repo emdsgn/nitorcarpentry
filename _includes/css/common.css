@@ -460,6 +460,27 @@ h3 {
     text-align: center;
 }
 
+/* 404 */
+.error a {
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-bottom: dotted 1px #FFF;
+}
+
+.error a:link,
+.error a:visited {
+    text-decoration: none;
+    padding: 0.1em 0 0.1em 0;
+}
+
+.error a:hover,
+.error a:focus {
+    background-color: #000;
+    color: #FFF;
+}
+
+
 @media only screen and (min-width: 21em) {
 
     .box-1,
@@ -923,6 +944,10 @@ h3 {
         border-bottom: 500px solid transparent;
         border-right: 500px solid #282725;
     }
+
+    .error {
+        padding-bottom: 39.5%;
+    }
 }
 
 @media only screen and (min-width: 58em) {
@@ -953,6 +978,10 @@ h3 {
 
     .main-nav ul ul {
         margin: 0 0 0 -1.9%;
+    }
+
+    .error {
+        padding-bottom: 40.5%;
     }
 }
 
@@ -1016,6 +1045,10 @@ h3 {
     .box-7 .body {
         font-size: 1em;
     }
+
+    .error {
+        padding-bottom: 39.5%;
+    }
 }
 
 @media only screen and (min-width: 66em) {
@@ -1050,6 +1083,10 @@ h3 {
     .copyright p {
         font-size: 0.5em;
     }
+
+    .error {
+        padding-bottom: 38.3%;
+    }
 }
 
 @media only screen and (min-width: 72em) {
@@ -1069,6 +1106,10 @@ h3 {
 
     .s-logo {
         width: 6%;
+    }
+
+    .error {
+        padding-bottom: 33.5%;
     }
 }
 
@@ -1117,6 +1158,10 @@ h3 {
     .reno {
         padding-left: 3.5em;
     }
+
+    .error {
+        padding-bottom: 39.2%;
+    }
 }
 
 @media only screen and (min-width: 85em) {
@@ -1155,6 +1200,9 @@ h3 {
         padding-bottom: 13.5%;
     }
 
+    .error {
+        padding-bottom: 33.5%;
+    }
 }
 
 @media only screen and (min-width: 90em) {
@@ -1191,6 +1239,10 @@ h3 {
     #contact {
         padding: 4em;
     }
+
+    .error {
+        padding-bottom: 40%;
+    }
 }
 
 @media only screen and (min-width: 119em) {
@@ -1219,4 +1271,9 @@ h3 {
     .commercial {
         padding-bottom: 20.8%;
     }
+
+    .error {
+        padding-bottom: 41.5%;
+    }
+
 }
