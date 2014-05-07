@@ -9,8 +9,8 @@ License: http://www.egrappler.com/license.
     $.fn.extend({
         quake: function (options) {
             var settings = $.extend({
-                animationSpeed: 500,
-                pauseTime: 4000,
+                animationSpeed: 570,
+                pauseTime: 4040,
                 rows: 4,
                 cols: 12,
                 thumbnails: true,

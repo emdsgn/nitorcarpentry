@@ -460,6 +460,24 @@ h3 {
     text-align: center;
 }
 
+.copyright a {
+    margin: 0 auto;
+    color: #000;
+    border-bottom: dotted 1px #000;
+}
+
+.copyright a:link,
+.copyright a:visited {
+    text-decoration: none;
+    padding: 0.5em 0 0.5em 0;
+}
+
+.copyright a:hover,
+.copyright a:focus {
+    background-color: #000;
+    color: #FFF;
+}
+
 /* 404 */
 .error a {
     text-align: center;
