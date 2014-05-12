@@ -26,6 +26,11 @@ html {
     margin: 0 auto;
 }
 
+.flex-icon {
+    display: block;
+    width: 80%;
+}
+
 .s-logo {
     width: 8%;
 }
@@ -369,6 +374,12 @@ h3 {
 .contact-head a:focus {
     background-color: #000;
     color: #FFF;
+}
+
+.icon {
+    padding: 1em 0 0 0;
+    text-align: left;
+    margin: 0 0 0 -25px;
 }
 
 .site-map {
