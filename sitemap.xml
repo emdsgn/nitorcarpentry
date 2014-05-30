@@ -4,7 +4,7 @@
 
    <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/index.html</loc>
+      <loc>www.nitorcarpentry.com/index.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -14,18 +14,7 @@
 
   <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/about.html</loc>
-
-      <lastmod>2014-05-01</lastmod>
-
-
-      <priority>0.8</priority>
-
-   </url>
-
-  <url>
-
-      <loc>http://emdsgn.github.io/nitorcarpentry/add-reno.html</loc>
+      <loc>www.nitorcarpentry.com/about.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -36,7 +25,18 @@
 
   <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/boutique.html</loc>
+      <loc>www.nitorcarpentry.com/add-reno.html</loc>
+
+      <lastmod>2014-05-01</lastmod>
+
+
+      <priority>0.8</priority>
+
+   </url>
+
+  <url>
+
+      <loc>www.nitorcarpentry.com/boutique.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -47,7 +47,7 @@
 
    <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/commercial.html</loc>
+      <loc>www.nitorcarpentry.com/commercial.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -58,7 +58,7 @@
 
    <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/custom-home.html</loc>
+      <loc>www.nitorcarpentry.com/custom-home.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -69,7 +69,7 @@
 
    <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/photo.html</loc>
+      <loc>www.nitorcarpentry.com/photo.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 
@@ -80,7 +80,18 @@
 
    <url>
 
-      <loc>http://emdsgn.github.io/nitorcarpentry/process.html</loc>
+      <loc>www.nitorcarpentry.com/process.html</loc>
+
+      <lastmod>2014-05-01</lastmod>
+
+
+      <priority>0.8</priority>
+
+   </url>
+
+   <url>
+
+      <loc>www.nitorcarpentry.com/404error.html</loc>
 
       <lastmod>2014-05-01</lastmod>
 

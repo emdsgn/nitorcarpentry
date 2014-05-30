@@ -1,4 +1,4 @@
-Sitemap: http://emdsgn.github.io/nitorcarpentry/sitemap.xml
+Sitemap: www.nitorcarpentry.com/sitemap.xml
 
 User-agent: *
 Disallow:
