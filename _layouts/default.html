@@ -50,8 +50,8 @@
 
 <div class="grid logo">
   <div class="box"></div>
-  <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3">
-    <a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}/img/nitor-logo.jpg" alt="Nitor Carpentry" class="flex-logo"></a>
+  <div class="unit unit-s-1 unit-m-2-3 unit-l-2-3" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{site.baseurl}}/index.html" itemprop="url"><img src="{{site.baseurl}}/img/nitor-logo.jpg" alt="Nitor Carpentry" class="flex-logo" itemprop="logo"></a>
   </div>
 </div>
 
@@ -69,8 +69,8 @@
 
     <div class="contact-head">
       <h3>Get In Touch</h3>
-      <p>T: 613-913-1081</p>
-      <p><a href="mailto:projects@nitorcarpentry.com" class="contact-link">projects@nitorcarpentry.com</a></p>
+      <a href="tel:+16139131081" itemprop="telephone"><p>T: 613-913-1081</p></a>
+      <p><a href="mailto:projects@nitorcarpentry.com" class="contact-link" itemprop="email">projects@nitorcarpentry.com</a></p>
       <div class="grid icon">
         <div class="unit unit-s-1-4 unit-m-1-4 unit-l-1-4">
           <a href="https://www.facebook.com/nitorcarpentry" target="blank" title="Stay in tuned with our work on facebook!">
@@ -88,14 +88,14 @@
     <h3>Site Map</h3>
     <nav class="footer-nav">
       <ul>
-        <li><a href="{{site.baseurl}}/about.html">About Us</a></li>
-        <li><a href="{{site.baseurl}}/index.html#services">Services</a></li>
-        <li><a href="{{site.baseurl}}/photo.html">Photo Gallery</a></li>
-        <li><a href="{{site.baseurl}}/brochures.html">Brochures</a></li>
-        <li><a href="{{site.baseurl}}/boutique.html">Boutique Carpentry</a></li>
-        <li><a href="{{site.baseurl}}/custom-home.html">Custom Homes</a></li>
-        <li><a href="{{site.baseurl}}/add-reno.html">Additions & Renovations</a></li>
-        <li><a href="{{site.baseurl}}/commercial.html">Commercial</a></li>
+        <li><a href="{{site.baseurl}}/about.html" itemprop="url">About Us</a></li>
+        <li><a href="{{site.baseurl}}/index.html#services" itemprop="url">Services</a></li>
+        <li><a href="{{site.baseurl}}/photo.html" itemprop="url">Photo Gallery</a></li>
+        <li><a href="{{site.baseurl}}/brochures.html" itemprop="url">Brochures</a></li>
+        <li><a href="{{site.baseurl}}/boutique.html" itemprop="url">Boutique Carpentry</a></li>
+        <li><a href="{{site.baseurl}}/custom-home.html" itemprop="url">Custom Homes</a></li>
+        <li><a href="{{site.baseurl}}/add-reno.html" itemprop="url">Additions & Renovations</a></li>
+        <li><a href="{{site.baseurl}}/commercial.html" itemprop="url">Commercial</a></li>
       </ul>
     </nav>
   </div>
@@ -112,8 +112,8 @@
 </div>
 
 <div class="grid">
-  <div class="unit unit-s-1 unit-m-1 unit-l-1 copyright">
-    <p>&copy; Copyright 2014. Deisgned by <a href="http://dpsoriginal.com">DPS Original</a>. All rights reserved.</p>
+  <div class="unit unit-s-1 unit-m-1 unit-l-1 copyright" itemscope itemtype="http://schema.org/WebPage">
+    <p>&copy; <span itemprop="copyrightYear">Copyright 2014.</span> Deisgned by <a href="http://dpsoriginal.com" itemprop="copyrightHolder">DPS Original</a>. All rights reserved.</p>
   </div>
 </div>
 </footer>
@@ -188,6 +188,16 @@
       });
 </script>
 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51477514-1', 'nitorcarpentry.com');
+  ga('send', 'pageview');
+
+</script>
 
 </body>
 </html>
